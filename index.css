@@ -1,25 +1,38 @@
 @font-face {
-    font-family: "Lato";
-    src: url("Lato/Lato-Black.ttf") format("truetype");
+  font-family: "Lato";
+  src: url("Assets/Lato/Lato-Black.ttf") format("truetype");
 }
 html {
-    background-color : rgb(17, 17, 17);
+  background-color: rgb(17, 17, 17);
 }
-.XXLtext{
-    color : white;
-    text-align : center;
-    font-family : "Lato";
-    font-size : 128px;
+.XXLtext {
+  color: white;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 128px;
 }
-.normaltext{
-    color: white;
-    font-family: "Lato";
-    font-size: 32px;
+.normaltext {
+  color: white;
+  font-family: "Lato";
+  font-size: 32px;
+}
 
+.THELEGGY {
+  position: absolute;
+  left: 30px;
+  top: 10px;
 }
 
-.THELEGGY{
-    position:absolute;
-    left:30px;
-    top:10px;
- }
+.Socials {
+  border: solid 5px;
+  border-color: grey;
+  padding: 1em;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+.Social {
+  margin: 1em;
+  font: Lato;
+}
